@@ -4,5 +4,11 @@ terraform -version #run this to verify if terraform installed correctly https://
 az version #verify if you have installed azure cli correctly , not to be confused with Aazure Az modules https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
 
 
+az account list --output table
+az login
+
+terraform init
+
+terraform plan
 
  
