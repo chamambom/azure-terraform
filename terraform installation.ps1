@@ -5,9 +5,13 @@ az version #verify if you have installed azure cli correctly , not to be confuse
 
 
 az account list --output table
+az login --tenant ltzis.onmicrosoft.com
 az login
 
 terraform init
+terraform fmt
+
+terraform validate
 
 terraform plan
 

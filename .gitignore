@@ -1,4 +1,4 @@
-.idea/
-.terraform/
+.idea/*
+.terraform/*
 .terraform.lock.hcl
 Terraform.pdf
