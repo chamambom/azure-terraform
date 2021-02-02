@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 .idea/*
 .terraform/*
 .terraform.lock.hcl
 Terraform.pdf
+=======
+.idea/
+>>>>>>> 6e337467d33b15fe8cfca63625911c7235208b27

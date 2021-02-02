@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿#run this to verify if terraform installed correctly https://stackoverflow.com/questions/1618280/where-can-i-set-path-to-make-exe-on-windows
 terraform -version
 
@@ -28,3 +29,13 @@ terraform destroy -auto-approve
 terraform force-unlock -force 4ea31347-327c-1bf8-485d-3022570115cc
 
 yes
+=======
+﻿
+
+terraform -version #run this to verify if terraform installed correctly https://stackoverflow.com/questions/1618280/where-can-i-set-path-to-make-exe-on-windows
+az version #verify if you have installed azure cli correctly , not to be confused with Aazure Az modules https://docs.microsoft.com/en-us/cli/azure/install-azure-cli-windows?tabs=azure-cli
+
+
+
+ 
+>>>>>>> 6e337467d33b15fe8cfca63625911c7235208b27
