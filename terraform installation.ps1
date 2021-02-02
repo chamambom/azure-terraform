@@ -15,6 +15,16 @@ terraform fmt
 terraform validate
 terraform plan
 
+terraform plan -lock=false
 
-terraform plan apply
+stop-process -name terraform
+
+
+terraform apply -auto-approve 
+
+terraform destroy -auto-approve 
  
+
+terraform force-unlock -force 4ea31347-327c-1bf8-485d-3022570115cc
+
+yes
